@@ -1,0 +1,178 @@
+/* You can add global styles to this file, and also import other style files */
+@media screen and (min-width:768px) and (max-width:1400px) {
+
+
+    .principal {
+        padding: 2%;
+        height: max-content;
+        width: 100%;
+        border-style: solid;
+        border-color: #2357A6;
+        overflow: hidden;
+        border-radius: 5%;
+    }
+
+    .descripcionCliente {
+        margin: 2px;
+        padding: 2%;
+        height: 400px;
+        width: 25%;
+        border-style: solid;
+        border-color: #2357A6;
+        border-radius: 5%;
+        background-color: #BC3BBB;
+        color: antiquewhite;
+        font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+        font-style: oblique;
+        font-size: x-large;
+        -webkit-box-shadow: 2px 2px #A6DBE8, 3px 2px #A6DBE8;
+        box-shadow: 2px 2px 3px 2px #A6DBE8;
+        font-variant: small-caps;
+        font-weight: bolder;
+        text-indent: 5px;
+        text-shadow: 1px 0px 5px;
+
+    }
+
+    .cuentas {
+        margin: 2px;
+        padding: 2%;
+        height: 900px;
+        width: 74%;
+        border-style: solid;
+        border-color: #2357A6;
+        border-radius: 5%;
+        overflow: hidden;
+
+    }
+
+    .float {
+
+        float: right;
+    }
+
+    .inputs {
+        margin-top: 45px;
+        margin-left: 15px;
+        float: left;
+        height: max-content;
+        width: 40%;
+        border-style: solid;
+        border-color: #2357A6;
+        border-radius: 5%;
+        float: right;
+        overflow: inherit;
+        font-style: italic;
+        font-variant: small-caps;
+    }
+
+
+
+
+}
+
+@media screen and (min-width:480px) and (max-width:768px) {
+
+
+    .principal {
+        padding: 2%;
+        height: max-content;
+        width: 100%;
+        border-style: solid;
+        border-color: #2357A6;
+        overflow: hidden;
+        border-radius: 5%;
+    }
+
+
+    .descripcionCliente {
+        margin: 2px;
+        padding: 1%;
+        height: 400px;
+        width: 100%;
+        border-style: solid;
+        border-color: #2357A6;
+        border-radius: 5%;
+        background-color: #BC3BBB;
+        color: antiquewhite;
+        font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+        font-style: oblique;
+        font-size: x-large;
+        -webkit-box-shadow: 2px 2px #A6DBE8, 3px 2px #A6DBE8;
+        box-shadow: 2px 2px 3px 2px #A6DBE8;
+        font-variant: small-caps;
+        font-weight: bolder;
+        text-indent: 5px;
+        text-shadow: 1px 0px 5px;
+
+    }
+
+    .tituloPrincipal{
+        margin: 5%;
+        font: bold;
+        background-color: #2357A6;
+        color: #A6DBE8;
+        width: 100%;
+        padding-left: 10px;
+        border-radius: 10px;
+
+    }
+
+    .cuentas {
+        margin: 2px;
+        padding: 1%;
+        height: 900px;
+        width: 100%;
+        border-style: solid;
+        border-color: #2357A6;
+        border-radius: 5%;
+        overflow: hidden;
+
+    }
+
+ 
+
+    .inputs {
+        margin-top: 45px;
+        margin-left: 15px;
+        float: left;
+        height: 85px;
+        width: 45%;
+        border-style: solid;
+        border-color: #2357A6;
+        border-radius: 5%;
+        float: right;
+        overflow: inherit;
+        font-style: italic;
+        font-variant: small-caps;
+    }
+
+    .reset{
+        margin-top: 45px;
+        margin-left: 15px;
+        float: left;
+        height: 85px;
+        width: 90%;
+        border-style: solid;
+        border-color: #2357A6;
+        border-radius: 5%;
+        float: right;
+        overflow: inherit;
+        font-style: italic;
+        font-variant: small-caps;
+    }
+
+    .titulo{
+
+        font: bold;
+        background-color: #2357A6;
+        color: #A6DBE8;
+        width: 100%;
+        padding-left: 10px;
+    }
+    :hover.titulo{
+        background-color: rgb(23, 9, 75);
+        transition: 1s;
+    }
+
+}
